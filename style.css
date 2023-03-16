@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ;
+}
+:root{
+    --bg-gray: #222327;
+    --bg-white: #fff;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--bg-gray);
+}
+.navbar{
+    width: 500px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-white);
+    border-radius: 10px;
+}
+.navbar ul{
+    width: 350px;
+    display: flex;
+}
